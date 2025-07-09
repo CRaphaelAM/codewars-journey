@@ -1,4 +1,4 @@
-import Ejercicios.Solution;
+import Ejercicios.FindOdd;
 
 
 
@@ -15,6 +15,6 @@ import Ejercicios.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Solution.camelCase("a"));
+        System.out.println(FindOdd.findIt(new int[]{1,1,1,1,1,1,10,1,1,1,1}));
     }
 }
